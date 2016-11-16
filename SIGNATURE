@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.79.
+signed via the Module::Signature module, version 0.80.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -15,46 +15,119 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 70d6187d0152848c922dc4360fa6dd3a3dc35c62 BUGS
-SHA1 1c40958b30fd8921940264efc420c492888cb8bd CHANGES
+SHA1 290b60116b10caab1433a2bd068cb9b02d9f0f34 CHANGES
 SHA1 dda5ca4f413031e9efcaa1600461d5e2adaa3a40 CREDITS
 SHA1 994e042378cfa664b0e29845482c0d396daa4f51 GMP.xs
 SHA1 d6b7be7fb558f2df93e6bc55148bba35cae22ce4 INSTALL
 SHA1 d6a6c30ee6d9ba6b9afab8bbf6a25e1b23c744e0 LICENSE
-SHA1 827f3cfa928f2136db6b2fcbcb7c161a3a00071f MANIFEST
+SHA1 03d11a0f92da637d4fc335280a6a64d573145240 MANIFEST
 SHA1 af63913bdddd932166479fe0fab3e1bffca11383 MANIFEST.SKIP
-SHA1 5fc8668707f1084de8801c75d5ab68e1a463f142 META.json
-SHA1 0a136bafa7970d3f1c48cb38d9610606b9af2e0b META.yml
-SHA1 c394553103dce216815fd623b316ac580e4019f7 Makefile.PL
+SHA1 f5a6df3b34cdda4311d7de449a125adc61a3ac92 META.json
+SHA1 8cf684fa15652673e7d037b2dfb9b4a90aedd134 META.yml
+SHA1 55a3684f767dcf858022cad9bf29613f0693ec26 Makefile.PL
 SHA1 88285b11c8b577086397d0f84983c031c7910d6e README
 SHA1 6c7207c83d636868d3d1f1fc42f3f9e5897cbe85 TODO
 SHA1 fd48d0d8750eb949e485d8136b5b424fe73e9775 build/README
-SHA1 7bcc4113830721ad6e37a1ea79df94a6987c836d build/leak.pl
-SHA1 ac25bda8a6eb9058a9e42a8943c3e11b9fed88dc build/leaktest
-SHA1 3fd5ca410a064b30c363b1751dd4f94b79d0b0e0 inc/Devel/CheckLib.pm
-SHA1 9c0220e73922b07ab532a749ec6843ed8eaa6401 lib/Math/BigInt/GMP.pm
+SHA1 8b5434c90e20874d4cb47abc35b11317f6867c1b build/leak.pl
+SHA1 ccbce5d8668a8f514a07b18b78facac682c4d3b5 build/leaktest
+SHA1 275b16604fe90efb8a49f0c649b509358359a36f inc/Devel/CheckLib.pm
+SHA1 25a5ea2dd5ff40871106a943917ac8b2580c8822 lib/Math/BigInt/GMP.pm
 SHA1 385cc7ed3bf3e6290640b9880445ca9a3dea629e t/00sig.t
 SHA1 9804bc54921977a29afed178ebc3bd56163ab2f5 t/01load.t
 SHA1 b2ed9206ca5b69ec3b8bbf850bf4b6dfde518e7e t/02pod.t
 SHA1 98c6444812754e7b8a25897d688aa7086a6df175 t/03podcov.t
+SHA1 0d9758823816d54e8466e98ea47c1286754f4e47 t/Math/BigInt/Lib/TestUtil.pm
+SHA1 245f3bff2049103fd3e78f491cf532c5d39d410a t/author-lib-arithmetic-binary-_add.dat
+SHA1 3dcb68f0375ed37867b984c6e2081402045f52b5 t/author-lib-arithmetic-binary-_add.t
+SHA1 d096727381e245cf51b952eefd3e95dfbc9c08f4 t/author-lib-arithmetic-binary-_div.dat
+SHA1 2b0e93358aa06e114474b2ee8504e9f5a6a85ee7 t/author-lib-arithmetic-binary-_div.t
+SHA1 1061301e834c83427043e373b59162f594367ebd t/author-lib-arithmetic-binary-_gcd.dat
+SHA1 03d27995a9243865f2364ec47cfa13c1e7fe3305 t/author-lib-arithmetic-binary-_gcd.t
+SHA1 675ca9556ae6b30aadcbefb4f14261f566acdbd1 t/author-lib-arithmetic-binary-_log_int.t
+SHA1 a28d97aed44453338896dc1da7a44e668446b00e t/author-lib-arithmetic-binary-_mod.dat
+SHA1 d4a1197badf8c9567ea9a09d548797284d5a2b49 t/author-lib-arithmetic-binary-_mod.t
+SHA1 18871aee9027f01272891d94efb6107eea4770bb t/author-lib-arithmetic-binary-_modinv.dat
+SHA1 d7f295131d5267778c07ce06b2865ac07f352eb5 t/author-lib-arithmetic-binary-_modinv.t
+SHA1 71492c41e07d6781da14071a7906e779ee458640 t/author-lib-arithmetic-binary-_mul.dat
+SHA1 0aa801bfe661756501328622da64cb8684c95b40 t/author-lib-arithmetic-binary-_mul.t
+SHA1 25d26339d29ab2546d6a0d75b2623aa41d85765a t/author-lib-arithmetic-binary-_nok.dat
+SHA1 5920ce70fb2ff23f38b4cdeb749d4fe07a0d15bf t/author-lib-arithmetic-binary-_nok.t
+SHA1 caed691379989116ef76209d8a2782f48af94ca2 t/author-lib-arithmetic-binary-_pow.t
+SHA1 dd7fe3081c7b34d812bd2d63bd0a379336a6fb2f t/author-lib-arithmetic-binary-_root.dat
+SHA1 720bf73c00f8b16e28bc80e208f10c4e02a0b451 t/author-lib-arithmetic-binary-_root.t
+SHA1 208b3d832880b0173214a8d3e8ae758cc180bf20 t/author-lib-arithmetic-binary-_sub.dat
+SHA1 0c822cee96f854b8efbfd2ea62dd261931a87f72 t/author-lib-arithmetic-binary-_sub.t
+SHA1 1a46baeec3de83d73e46be04e66734691e220ce6 t/author-lib-arithmetic-ternary-_lsft.dat
+SHA1 762cfe13656119e165292a60d49f56ace00e2d9b t/author-lib-arithmetic-ternary-_lsft.t
+SHA1 1c840a9723e1966ffeae105251a5f8fb1bb222f3 t/author-lib-arithmetic-ternary-_modpow.dat
+SHA1 4c7cee8907cea3ce628ddb58dcd293cb900a9957 t/author-lib-arithmetic-ternary-_modpow.t
+SHA1 d8906cbfdb4cd2b156dfd3b3e3ab8c9d6e9f2622 t/author-lib-arithmetic-ternary-_rsft.dat
+SHA1 304ee1f9fb28d6a0d29383becae32150e3962010 t/author-lib-arithmetic-ternary-_rsft.t
+SHA1 7449a55f5a0b716221c59c15f51571099d2aebc1 t/author-lib-arithmetic-unary-_dec.t
+SHA1 0611b9f6f31bec9174d4cee4d20899e023feb0ca t/author-lib-arithmetic-unary-_fac.dat
+SHA1 937959f4b89263e7f84743cbce0182e40c360d98 t/author-lib-arithmetic-unary-_fac.t
+SHA1 f349302bc1d9e9e8a10719d242ea0e762f281bce t/author-lib-arithmetic-unary-_inc.t
+SHA1 945458ba0c81213b1e7ee6a277cc47e425108f3e t/author-lib-arithmetic-unary-_sqrt.dat
+SHA1 5d963b095474ce97029cdeeefb08234b183f53c5 t/author-lib-arithmetic-unary-_sqrt.t
+SHA1 fa4e6baa4542ce315a681a6da751a37751e39ca6 t/author-lib-bitwise-_and.dat
+SHA1 ddd08029f2dd23d3554c4d7c553720eee3ac8f65 t/author-lib-bitwise-_and.t
+SHA1 8edc8041ff1e2cad7684faf9d183db5d68d50498 t/author-lib-bitwise-_or.dat
+SHA1 dbbcaeda1175720165d7c0034a3399156092071b t/author-lib-bitwise-_or.t
+SHA1 89dd08ab86c6193afcf2a5a6fee255e43bc7a380 t/author-lib-bitwise-_xor.dat
+SHA1 9cb5c6caf34bd102571d5ca70c22083b2c5ace47 t/author-lib-bitwise-_xor.t
+SHA1 163afaac06c220c06184e6c87e85444467ee5965 t/author-lib-boolean-_is_even.t
+SHA1 66b8fe65240521da14f01c3393c402d640d68f36 t/author-lib-boolean-_is_odd.t
+SHA1 89f4942ba0f45ebc8fc9709f3aa806459c8452e3 t/author-lib-boolean-_is_one.t
+SHA1 5cc2a9ebd5dc9a4adbf150ca14f28e1d8ff1bede t/author-lib-boolean-_is_ten.t
+SHA1 8f8c7e0709ee119929e811d7ba36b7650204e603 t/author-lib-boolean-_is_two.t
+SHA1 0204bb98cd1490c2d619951abb1da47e63e4f9d8 t/author-lib-boolean-_is_zero.t
+SHA1 7d06db3ea864e1c6c9ba30ba933a20558c59cc78 t/author-lib-comparison-_acmp.t
+SHA1 70c4ed62e09d2a3d62cafe89c5a4c64ce87a04c6 t/author-lib-constructor-nullary-_one.t
+SHA1 164fda070b657bc2b37576c9b189e1c5c539d981 t/author-lib-constructor-nullary-_ten.t
+SHA1 907b5bf1a0e02f96761d8d652a39a96a62842825 t/author-lib-constructor-nullary-_two.t
+SHA1 44832785e59cc81b196e138fe67cd1503e5631c5 t/author-lib-constructor-nullary-_zero.t
+SHA1 cb231f5a8dc21a9c22c0357caf405148ae80542d t/author-lib-constructor-unary-_copy.t
+SHA1 c9539965e7ef898559b9f9b978aabb4429684cdd t/author-lib-constructor-unary-_from_bin.dat
+SHA1 4ef99cacf831809f71f49d27c08ca2247144bae9 t/author-lib-constructor-unary-_from_bin.t
+SHA1 a17c631c96d719880a0911475a7cf87b1d024257 t/author-lib-constructor-unary-_from_hex.dat
+SHA1 c2a9e5412870764a6832a4cafe6c2b417ef00df7 t/author-lib-constructor-unary-_from_hex.t
+SHA1 c4aee685339894d9975cd5b643869130e31e70c2 t/author-lib-constructor-unary-_from_oct.dat
+SHA1 dfc901f314a50ce046aa8a231ba597ad5b141cf3 t/author-lib-constructor-unary-_from_oct.t
+SHA1 e7cbe471a3f5537ab7e72225ffca5cec8c7d9571 t/author-lib-constructor-unary-_new.t
+SHA1 fcc1fc5d11acadad5aeb3d566fa2a0a0057a656d t/author-lib-convert-number-_num.t
+SHA1 25cb7ed724cecb287ae7cc1b52eeed6e8313b674 t/author-lib-convert-string-_as_bin.dat
+SHA1 cbb4060d30e76c2cc2228ea4ee336996b654000e t/author-lib-convert-string-_as_bin.t
+SHA1 d3ab340bf68cac2efcf28da0183851195aaa1a31 t/author-lib-convert-string-_as_hex.dat
+SHA1 20005daff88f4907b8a213448502e05a8c5a9902 t/author-lib-convert-string-_as_hex.t
+SHA1 1a321f2488a44cb420484a8b6daeaa80064e7cf1 t/author-lib-convert-string-_as_oct.dat
+SHA1 2ae344c698d2198bdaa6d9d47c1cc0cab74a2752 t/author-lib-convert-string-_as_oct.t
+SHA1 a58d0ab44b3a715bfbfa9a60829fd338d25863f7 t/author-lib-convert-string-_str.t
+SHA1 1729e5b66f3a943d80fb03e31a2820641036fe72 t/author-lib-misc-_check.t
+SHA1 ad85e0959d77c191cf5de8bc242de15e13bdcf3b t/author-lib-misc-api_version.t
+SHA1 44d2abff396c96f7b8a9ee578ce403f620002885 t/author-lib-property-_alen.t
+SHA1 d22941945b2d680a5c032ca1c48d06e23f963841 t/author-lib-property-_digit.t
+SHA1 be9ea551223e44641edcbbfc4b3fc5362103c677 t/author-lib-property-_len.t
+SHA1 c0a56a909789c70bd65f85d69396b3f7f6317e4a t/author-lib-property-_zeros.t
+SHA1 2514e773a8af464c4ab05bd6de57ca46807d1cb8 t/author-lib.ini
+SHA1 518c629dc74fb7c1fef9ca1ebc0688db2964921d t/author-lib.t
 SHA1 73a0ee5c082e0f61acd39d9edab75fb340871d42 t/bigfltpm.inc
-SHA1 14f9bbf310f82157ee1c8c1b546fb8b2e522e877 t/bigfltpm.t
-SHA1 dd66e0f66b3b470397880c91d83ccd7e0e62808d t/bigintg.t
-SHA1 4962d50d538ec515c1dc33b87659de906ab1ba5b t/bigintpm.inc
-SHA1 9117546c0d726ef07e616f4fb407d46317240605 t/bigintpm.t
-SHA1 6a32bb3e0cf8e2d5c862d9749ffa12b7827a233f t/biglog.t
-SHA1 95ccd077cf518e86c329ac5122c2bc8f487e9d2a t/bigroot.t
-SHA1 62084b48dc1b6f0ceebe23471b3761b55be07872 t/mbi-from-big-scalar.t
+SHA1 6100289434a9014a2943da00f0f1ca8cce49e1d3 t/bigfltpm.t
+SHA1 fb03741576e1513d5f03028946b4a73738b40d04 t/bigintg.t
+SHA1 3de1d4198c8270d57ff9d6b675f4f8c6a4203a4f t/bigintpm.inc
+SHA1 3291d1d75b82df5507196b03546d6b2c5a92525e t/bigintpm.t
+SHA1 3f4615c3773a9b43c7037f9f6914de4660aea1a6 t/biglog.t
+SHA1 faa8d92c0146a48570e17a17da0e44c23cce262d t/bigroot.t
+SHA1 74ce808c9460cd83b457e8758afd374d26ba581c t/mbi-from-big-scalar.t
 SHA1 f1bcab94173a57861fcc40ac90eb72f64aafea7f t/storable.t
-SHA1 75389f897d460ce6391652da2977bf22d1f56285 t/threads.t
+SHA1 3ed7f2a3f3a67d84182b5190dddd498650a2a1af t/threads.t
 SHA1 20cf43acc1a728d0ee8245b106937a2a97900266 typemap
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1
 
-iQEcBAEBAgAGBQJXHmPeAAoJEGcmPl2fr166os0IALpewmMsFo+kzWQzeDFw23PU
-l0RmMO5Q1kzNUF5cBaot1yQ48UdNhZ/mZ/z4ZvJo4ddnR/Jg5kfKIN4Rg85vsEbq
-U159YCkH5eLCYoCPY+IjFI7UgDME+Q5i/D5EndZMaDWtIX1QxqKAFtgz0ssVwMHa
-zNMJgf9+NqveGAqCR0XBOc4TgEuLtMlzzkDjgiS+cvBSJLLPD/TKYoQc8QnW0jIA
-fMi7X1G88lKm8CAMZ6OUS2RhcuOL259H7zACQko1G07my3Dafk28ZRb6FZFSrqIl
-C1+jlUTT5fnGAHb1Z8G9VqWP7cJLOY06kT0DCYVspq7TCLFxoiqSX9DY1a9d1aI=
-=7L6/
+iQEcBAEBAgAGBQJYLHCvAAoJEGcmPl2fr16625EIALNQNLt6NMXl0TToGznoB1wZ
+P4oUcNCSmWY1Lii4A0AfgiBykFTOn+6FC5Al9OQ88PQ2F7ZTuSI7LY2ffvWgf1AS
+sGgiSxLz0AN40m7izsCjpYumDBOL+sg2uYZyuHlQjt7tMTyIt1kV4X9Ry91zXpZD
+NqZTNzqTAzOfR7YZiz/54tq5/LvOjruKe9F33gpgzEX/HUXINMJjSLCenB6WZ25R
+rm16NM0iFq1BJdEiRpRZyRwMspaRhWi981tcHuoLKgnPrCiZhxY1r48/dPOxUyBW
+vROsjKKiuOBKdY8OYl27cpNtVNJ96oIOi6dbbBW6InyfspzNPFUA6hFDhxYnaXk=
+=fbRo
 -----END PGP SIGNATURE-----
