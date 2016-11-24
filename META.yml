@@ -19,7 +19,7 @@ no_index:
     - t
     - inc
 requires:
-  Math::BigInt: '1.9998'
+  Math::BigInt: '1.999801'
   XSLoader: '0.02'
-version: '1.6000'
+version: '1.6001'
 x_serialization_backend: 'CPAN::Meta::YAML version 0.018'
