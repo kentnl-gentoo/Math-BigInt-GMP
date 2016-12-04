@@ -1,5 +1,5 @@
 {
-   "abstract" : "Use the GMP library for Math::BigInt routines",
+   "abstract" : "unknown",
    "author" : [
       "Peter John Acklam <pjacklam@gmail.com>"
    ],
@@ -33,16 +33,13 @@
       "runtime" : {
          "requires" : {
             "Math::BigInt" : "1.999801",
-            "XSLoader" : "0.02"
-         }
-      },
-      "test" : {
-         "requires" : {
-            "Test::More" : "0.94"
+            "Test::More" : "0.82",
+            "XSLoader" : "0.02",
+            "perl" : "5.006001"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "1.6001",
+   "version" : "1.6002",
    "x_serialization_backend" : "JSON::PP version 2.27400"
 }
