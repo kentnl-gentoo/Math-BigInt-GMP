@@ -26,4 +26,4 @@ my $e = $c->bdiv(Math::BigFloat->new(3),$d);
 is ($e,'0.00267'); # '0.008 / 3 => 0.0027');
 is (ref($e->{_e}->[0]), ''); # 'Not a BigInt');
 
-require 't/bigfltpm.inc';	# all tests here for sharing
+require './t/bigfltpm.inc';	# all tests here for sharing
